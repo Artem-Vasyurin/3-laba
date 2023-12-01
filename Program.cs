@@ -29,7 +29,7 @@ namespace Test_vdego
             Delete(ref array, 0);
         }
 
-        static void LastDel(ref int[] array)
+        static void LastDelete(ref int[] array)
         {
             Delete(ref array, array.Length-1);
         }
