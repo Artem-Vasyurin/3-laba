@@ -29,9 +29,11 @@ namespace Test_vdego
             Delete(ref array, 0);
         }
 
+
         static void LastDelete(ref int[] array)
         {
             Delete(ref array, array.Length-1);
         }
+
     }
 }
