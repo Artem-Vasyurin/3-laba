@@ -24,7 +24,7 @@ namespace Test_vdego
             array = newArray;
         }
 
-        static void FirstDel(ref int[] array)
+        static void FirstDelete(ref int[] array)
         {
             Delete(ref array, 0);
         }
